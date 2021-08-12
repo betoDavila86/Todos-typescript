@@ -5,7 +5,7 @@ function App() {
   const todos = [
     new Todo("Learning Typescript"),
     new Todo("with React"),
-    new Todo("is so easy")
+    new Todo("is great")
   ];
 
   return (
