@@ -4,8 +4,7 @@ import Todo from "./models/todo";
 function App() {
   const todos = [
     new Todo("Learning Typescript"),
-    new Todo("with React"),
-    new Todo("is great")
+    new Todo("with React")
   ];
 
   return (

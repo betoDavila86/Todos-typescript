@@ -1,7 +1,7 @@
 import React from "react";
 
-const Todo: React.FC<{ todoItem: { id: string; text: string } }> = ({ todoItem }) => {
-    return <li key={todoItem.id}>{todoItem.text}</li>;
+const Todo: React.FC<{ text: string }> = ({ text }) => {
+    return <li>{text}</li>;
 }
 
 export default Todo;
